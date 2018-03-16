@@ -6,3 +6,6 @@
 .fl-right{float: right;}
 .clearfix:before, .clearfix:after{content: " ";display: block;}
 .clearfix:after{clear: both;}
+a {
+    text-decoration: none;
+}
