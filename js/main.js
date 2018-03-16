@@ -1,3 +1,18 @@
+$("#close").click(function(){
+    $(".banner-on").css('display','none');
+    $(".banner-off").css('display','inline-block');
+    return false;
+});
+$("#show").click(function(){
+    $(".banner-on").css('display','block');
+    $(".banner-off").css('display','none');
+    return false;
+});
+// $("#close").click(function(){
+//     $(".banner-on").show();
+// })
+
+
 $(document).ready(function(){
   $('#menu').click(function(){
     $('.menu-responsive').slideToggle();

@@ -485,7 +485,7 @@ ul.product-categories li.cat-item{
     display: inline-block;
     position: absolute;
     bottom: 10px;
-    right: 70px;
+    right: 65px;
     opacity: 0;
     text-transform: uppercase;
     font-weight: 600;
@@ -704,7 +704,8 @@ ul.product-categories li.cat-item{
     text-transform: uppercase;
 }
 .aws-banner.turnoff_0 .banner-off {
-    display: none;
+    display: inline-block;
+    display: none;cursor: pointer;
 }
 .aws-banner .banner-button:hover {
     background: #74320B;
@@ -1171,22 +1172,22 @@ table tr{
     font-size: .95em;
 }
 table th{
-	background: #e74c3c;
+	background: #4f3120;
     color: #fff;
     text-transform: uppercase;
-    padding: 10px 12px;
+    padding: 15px 12px;
 }
 table tr td{
-	background: #e16568;
+	background: #fff;
     color: #424242;
 }
 table td{
-	padding: 2px 12px;
+	padding: 10px 12px;
     text-align: left;
 }
 table tr td {
-    background: #f3b5b6;
-    color: #424242;
+    background: #fff;
+    color: #ccc;
 }
 
 table tr:nth-of-type(2n+2) td {
